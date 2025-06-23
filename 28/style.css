@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    background-color: steelblue;
+}
+.navmenu{
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+}
+.navmenu ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.navmenu a{
+    margin-left: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.navmenu a:hover {
+    background-color: gray;
+}
+.divA{
+    display: flex;
+    justify-content: center;
+}
+.divB{
+    background-color: white;
+    padding: 30px;
+    margin: 15px;
+    width: 60%;
+    text-align: center;
+}
+.divB img{
+    height: 250px;
+}
+.div2{
+    background-color: white;
+    padding: 10px;
+    margin: 15px;
+    box-sizing: border-box;
+    width: 25%;
+    border-radius: 5px;
+}
+.divmain1{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    overflow-wrap: break-word;
+    width: 60%;
+}
+.divimage img{
+    height: 200px;
+}
+.divmain2{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    overflow-wrap: break-word;
+    width: 60%;
+}
